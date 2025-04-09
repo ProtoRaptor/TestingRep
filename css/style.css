@@ -215,7 +215,7 @@ position:relative;
 
 #uiStartBotBar2{
   top: 48vw;
-  padding: 5.5vw 16px;
+  padding: 5.5vw 2vw;
   width: 100%;
   background: #29a375;
   color: #f1f1f1;
@@ -580,7 +580,7 @@ background-size: 100vw 70vw;
   #b{
     position: relative;
     background: #797979;
-    height: 100vw;
+    height: 90vw;
   }
   
   #c{
