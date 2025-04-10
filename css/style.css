@@ -589,6 +589,10 @@ background-size: 100vw 70vw;
   p{
     font-size: 2.2rem;
   }
+
+  #uiTopBarC{
+    top: 85vw;
+  }
   
   #uiCarreLeft{
     height: 75vw;
@@ -603,7 +607,7 @@ background-size: 100vw 70vw;
   }
 
   #bulleText{
-    bottom: -13vw;
+    bottom: -10vw;
   }
   
   #a{
