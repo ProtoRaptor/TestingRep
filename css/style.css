@@ -585,10 +585,35 @@ background-size: 100vw 70vw;
 }
 
 @media screen and (max-width: 600px){
+
+  p{
+    font-size: 2.2rem;
+  }
+  
+  #uiCarreLeft{
+    height: 75vw;
+  }
+
+  #uiCarreRight{
+    height: 89vw;
+  }
+
+  #uiSeparator{
+    top: 8vw;
+  }
+
+  #bulleText{
+    bottom: -13vw;
+  }
+  
+  #a{
+    line-height: 1.5;
+  }
+  
   #b{
     position: relative;
     background: #797979;
-    height: 90vw;
+    height: 87vw;
   }
   
   #c{
@@ -596,7 +621,7 @@ background-size: 100vw 70vw;
     background-image: url("../images/wallpaperhhh4.png");
     background-size: 40vw 40vw;
     /*background: #85BAB0;*/
-    height: 130vw;
+    height: 96vw;
   }
 
   #d{
