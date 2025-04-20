@@ -10,7 +10,11 @@ h1 {
 }
 
 .testingPos{
-height:20vw;
+height:16vw;
+}
+
+.testingPos:has(p):has(.dialogBox.trois){
+  height: 20vw;
 }
 
 html{  
@@ -152,7 +156,7 @@ position:relative;
 .dialogBox {
   position: relative;
   z-index: -1;
-  bottom: 23%;
+  bottom: 28.75%;
   height: 10vw;
   margin: 0;
   margin-left: 12.5%;
@@ -163,6 +167,7 @@ position:relative;
 
 .dialogBox.trois{
   height: 13.25vw;
+  bottom: 23%;
 }
 
 .dialogBox.quatre{
@@ -213,6 +218,7 @@ position:relative;
 }
 
 #uiStartBotBar1{
+  top: 45.85vw;
   padding: 2.5vw 0px;
   width: 100%;
   background: #c1d311;
@@ -369,20 +375,20 @@ border-width: 0.75vw;
   top: 5vw;
   bottom: 0;
   margin-top:12.5vw;
-  height:97.8%;
+  height:97vw;
   left: 49.35%;
   border-left: 1.5vw dashed #f0ec58; 
 }
 
 #uiCarreLeft{
   left: -2vw;
-  height: 79vw;
+  height: 103%;
   width: 95%;
 }
 
 #uiCarreRight{
   left: 4vw;
-  height: 95vw;
+  height: 102.5%;
   width: 95%;
 }
 
@@ -441,7 +447,7 @@ border-width: 0.75vw;
 }
 
 #s1{
-height: 50vw;
+height: 54.8vw;
 }
 
 #bracket{
@@ -469,7 +475,7 @@ height: 50vw;
   text-align:left;
   margin: 0;
   margin-left: 12.5vw;
-  top: 25vw;
+  top: 28vw;
 }
 
 #three{
@@ -577,14 +583,6 @@ background: #11d375;
 
   #uiTopBarC{
     top: 85vw;
-  }
-  
-  #uiCarreLeft{
-    height: 75vw;
-  }
-
-  #uiCarreRight{
-    height: 89vw;
   }
 
   #uiSeparator{
