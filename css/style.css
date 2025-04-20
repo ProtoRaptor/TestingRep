@@ -9,6 +9,10 @@ h1 {
 
 }
 
+.testingPos{
+height:20vw;
+}
+
 html{  
   font-size:1vw;
 }
@@ -148,7 +152,7 @@ position:relative;
 .dialogBox {
   position: relative;
   z-index: -1;
-  bottom: 5vw;
+  bottom: 23%;
   height: 10vw;
   margin: 0;
   margin-left: 12.5%;
@@ -436,6 +440,9 @@ border-width: 0.75vw;
   background: #11C9D4;  
 }
 
+#s1{
+height: 50vw;
+}
 
 #bracket{
   position: absolute;
