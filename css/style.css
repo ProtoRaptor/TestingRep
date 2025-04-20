@@ -587,6 +587,11 @@ background: #11d375;
     font-size: 2.2rem;
   }
 
+  #slogan{
+    top:34vw;
+    left: 0;
+  }
+
   #uiTopBarC{
     top: 85vw;
   }
